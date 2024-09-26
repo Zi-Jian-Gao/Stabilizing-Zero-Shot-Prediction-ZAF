@@ -20,22 +20,10 @@ Our empirical research and theoretical analysis have uncovered that the stabilit
 To illustrate this, we present empirical findings using two example GIFs: the first displays visual comparisons of different existing continual learning (CL) methods, and the second demonstrates our ZAF method using various alpha values, which determine the model parameter update rate.
 The higher the value the slower the update.
 
-<div style="text-align:center; display: flex; justify-content: center;">
-<figure style="margin: 0;">
-    <img src="figs/matrix.png" style="width: 36.6%;" />
-    <figcaption>Evaluation matrix</figcaption>
-  </figure>
-<div style="width: 0.1%;"></div>  
-<figure style="margin: 0;">
-    <img src="figs/motivation_7Task_VG+VAW.gif" style="width: 60%;" />
-    <figcaption>Heatmaps of different CL methods</figcaption>
-  </figure>
-  <div style="width: 0.1%;"></div>
-  <figure style="margin: 0;">
-    <img src="figs/ZAF_with_different_alpha_value_7Task_VG+VAW.gif" style="width: 60.6%;" />
-    <figcaption>Heatmaps for our ZAF across various hyperparameter values</figcaption>
-  </figure>
-</div>
+| ![Evaluation matrix](figs/matrix.png) | ![Heatmaps of different CL methods](figs/motivation_7Task_VG+VAW.gif) | ![Heatmaps for our ZAF across various hyperparameter values](figs/ZAF_with_different_alpha_value_7Task_VG+VAW.gif) |
+|:-------------------------------------:|:--------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
+| Evaluation matrix                     | Heatmaps of different CL methods                                      | Heatmaps for our ZAF across various hyperparameter values                                    |
+
 
 By analyzing the variations, we observe that larger average values and reduced fluctuations in the red area, representing zero-shot predictions, typically correspond to similar patterns in the blue area, which signify anti-forgetting capabilities. This correlation does not adversely affect the yellow area, which represents the learning of new tasks.
 These observations confirm the relation between a model’s consecutive zero-shot prediction abilities and its anti-forgetting capabilities. 
