@@ -1,0 +1,7 @@
+#In the codes, we additionally shuffle the images and texts before training to ensure images and texts unrelated.
+vl_checklist_path: 'datasets/vl-checklist/data'
+task_list:
+  - name: vl_checklist_zsl
+    config: 'configs/task/nlvr_vl_checklist.yaml'
+    trainer: 'train_nlvr'
+    json_files: [ 'configs/continual/zero_shot.json' ]

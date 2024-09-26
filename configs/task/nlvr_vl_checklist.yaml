@@ -1,0 +1,21 @@
+vg_root: '/data/visgenome' # example dataset root directory
+haik_root: '/path/to/dataset'
+swig_root: '/path/to/dataset'
+split_file: 'datasets/vl-checklist/data/split_file.pickle'
+dataset: 'vl-checklist'
+
+#size of vit model; base or large
+vit: 'base'
+batch_size_train: [16,8,8,8,8,8,8,8]
+batch_size_test: 164
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+max_epoch: 12
+
+image_size: 384
+
+# optimizer
+weight_decay: 0.05
+init_lr: 0.00001
+min_lr: 0
+

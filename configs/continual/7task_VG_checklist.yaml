@@ -1,0 +1,41 @@
+# task list: object state → attr. action  → attr. size → rel. spatial → attr. material → rel. action → attr. color 
+
+vl_checklist_path: 'datasets/vl-checklist/data'
+task_list:
+  - name: vl_checklist_state
+    config: 'configs/task/nlvr_vl_checklist.yaml'
+    trainer: 'train_nlvr'
+    json_files: [ 'datasets/vl-checklist/data/Attribute/vg/state.json' ]
+  - name: vl_checklist_action
+    config: 'configs/task/nlvr_vl_checklist.yaml'
+    trainer: 'train_nlvr'
+    json_files: [ 'datasets/vl-checklist/data/Attribute/vg/action.json' ]
+  - name: vl_checklist_size
+    config: 'configs/task/nlvr_vl_checklist.yaml'
+    trainer: 'train_nlvr'
+    json_files: [ 'datasets/vl-checklist/data/Attribute/vg/size.json' ]
+  - name: vl_checklist_spatial
+    config: 'configs/task/nlvr_vl_checklist.yaml'
+    trainer: 'train_nlvr'
+    json_files: [ 'datasets/vl-checklist/data/Relation/vg/spatial.json' ]
+  - name: vl_checklist_material
+    config: 'configs/task/nlvr_vl_checklist.yaml'
+    trainer: 'train_nlvr'
+    json_files: [ 'datasets/vl-checklist/data/Attribute/vg/material.json' ]
+  - name: vl_checklist_relation_action
+    config: 'configs/task/nlvr_vl_checklist.yaml'
+    trainer: 'train_nlvr'
+    json_files: [ 'datasets/vl-checklist/data/Relation/vg/action.json' ]
+  - name: vl_checklist_color
+    config: 'configs/task/nlvr_vl_checklist.yaml'
+    trainer: 'train_nlvr'
+    json_files: ['datasets/vl-checklist/data/Attribute/vg/*color.json']
+
+# task order
+order: fixed # fixed or random
+
+# set pretrained as a file path or an url
+#pretrained: '/checkpoints/model_base_capfilt_large.pth'
+#pretrained: '/checkpoints/model_base.pth'
+pretrained: '/checkpoints/model_base_nlvr.pth'
+
