@@ -82,12 +82,11 @@ torchrun run_me.py --config ./configs/continual/5task_VAW_checklist.yaml --zsl_c
 ## Citation
 If you found our work useful for your research, please cite our work:
 
-    @article{smith2023construct,
-      title={ConStruct-VL: Data-Free Continual Structured VL Concepts Learning},
-      author={Smith, James Seale and Cascante-Bonilla, Paola and Arbelle, Assaf and Kim, Donghyun and Panda, Rameswar and Cox, David and Yang, Diyi and Kira, Zsolt and Feris, Rogerio and Karlinsky, Leonid},
-      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    @article{zjgao,
+      title={Stabilizing Zero-Shot Prediction: A Novel Antidote to Forgetting in Continual Vision-Language Tasks},
+      author={Zijian, Gao and Xingxing, Zhang and Kele, Xu and Xinjun, Mao and Huaimin, Wang},
+      booktitle={Annual Conference on Neural Information Processing Systems},
       pages={},
-      year={2023}
+      year={2024}
     }
 
-[arXiv]: https://arxiv.org/abs/2211.09790
