@@ -1,4 +1,4 @@
-## Stabilizing Zero-Shot Prediction: A Novel Antidote to Forgetting in Continual Vision-Language Tasks
+## Stabilizing Zero-Shot Prediction: A Novel Antidote to Forgetting in Continual Vision-Language Tasks (NeurIPS 24)
 
 
 <p align="center">
