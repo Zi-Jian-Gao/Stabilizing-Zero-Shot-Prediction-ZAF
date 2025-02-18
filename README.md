@@ -82,9 +82,14 @@ torchrun run_me.py --config ./configs/continual/5task_VAW_checklist.yaml --zsl_c
 ## Citation
 If you found our work useful for your research, please cite our work:
 
-    @inproceedings{gao2024stabilizing,
-      title={Stabilizing Zero-Shot Prediction: A Novel Antidote to Forgetting in Continual Vision-Language Tasks},
-      author={Gao, Zijian and Zhang, Xingxing and Xu, Kele and Mao, Xinjun and Wang, Huaimin},
-      booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
-      year={2024}
-    }
+@inproceedings{gao,
+ author = {Gao, Zijian and Zhang, Xingxing and Xu, Kele and Mao, Xinjun and Wang, Huaimin},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {128462--128488},
+ publisher = {Curran Associates, Inc.},
+ title = {Stabilizing Zero-Shot Prediction: A Novel Antidote to Forgetting in Continual Vision-Language Tasks},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/e7feb9dbd9a94b6c552fc403fcebf2ef-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
+}
